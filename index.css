@@ -379,19 +379,6 @@ article {
   background-attachment: fixed;
 }
 .stripes-bg {
-  /* background: radial-gradient(
-      circle at center,
-      hsl(var(--hue) 4% 22% / 50%),
-      hsl(var(--hue) 4% 12% / 70%),
-      hsl(var(--hue) 4% 8% / 72%)
-    ),
-    repeating-linear-gradient(
-      -140deg,
-      hsl(var(--hue) 4% 8% / 80%),
-      #fff1 0.125rem,
-      hsl(var(--hue) 4% 8% / 80%) 0.25rem,
-      hsl(var(--hue) 4% 12% / 80%) 12rem
-    ); */
   background: radial-gradient(
       circle at center,
       hsl(var(--hue) 4% 22% / 40%),
@@ -404,99 +391,6 @@ article {
       #fff3 0.125rem,
       hsl(var(--hue) 4% 16% / 70%) 0.25rem,
       hsl(var(--hue) 4% 8% / 20%) 12rem
-    );
-}
-.blue {
-  background: linear-gradient(
-      130deg,
-      hsl(190 64% 50% / 0.025),
-      hsl(230 64% 50% / 0.025)
-    ),
-    linear-gradient(
-      190deg,
-      hsl(var(--hs) 8% / 0.8),
-      hsl(var(--hs) 28% / 0.7),
-      hsl(var(--hs) 18% / 0.8)
-    );
-
-  background: 
-  /* linear-gradient(
-      130deg,
-      hsl(204 20% 48% / 5%),
-      hsl(216 20% 48% / 5%)
-    ), */
-    /* linear-gradient(
-      190deg,
-      hsl(var(--hue) 8% 4% / 60%),
-      hsl(var(--hue) 8% 24% / 50%),
-      hsl(var(--hue) 8% 12% / 60%)
-    ), */ radial-gradient(
-      circle at center,
-      hsl(var(--hue) 4% 24% / 64%),
-      hsl(var(--hue) 4% 12% / 72%),
-      hsl(var(--hue) 4% 8% / 96%)
-    ),
-    repeating-linear-gradient(
-      -140deg,
-      hsl(var(--hue) 4% 8% / 80%),
-      #fff1 0.125rem,
-      hsl(var(--hue) 4% 8% / 80%) 0.25rem,
-      hsl(var(--hue) 4% 12% / 80%) 12rem
-    );
-  background-attachment: fixed, scroll;
-}
-.pink {
-  background: linear-gradient(
-      130deg,
-      hsl(330 64% 50% / 0.025),
-      hsl(290 64% 50% / 0.025)
-    ),
-    linear-gradient(
-      -190deg,
-      hsl(var(--hs) 8% / 0.8),
-      hsl(var(--hs) 28% / 0.7),
-      hsl(var(--hs) 18% / 0.8)
-    );
-}
-.purple {
-  background: linear-gradient(
-      80deg,
-      hsl(280 64% 50% / 0.025),
-      hsl(240 64% 50% / 0.025)
-    ),
-    linear-gradient(
-      130deg,
-      hsl(var(--hs) 8% / 0.8),
-      hsl(var(--hs) 28% / 0.7),
-      hsl(var(--hs) 18% / 0.8)
-    );
-
-  background: linear-gradient(80deg, hsl(216 8% 48% / 4%), hsl(204 8% 48% / 4%)),
-    linear-gradient(
-      130deg,
-      hsl(var(--hue) 4% 8% / 80%),
-      hsl(var(--hue) 4% 28% / 70%),
-      hsl(var(--hue) 4% 18% / 80%)
-    ),
-    repeating-radial-gradient(
-      circle at center,
-      hsl(var(--hue) 4% 8% / 80%),
-      #fff1 0.125rem,
-      hsl(var(--hue) 4% 8% / 80%) 0.25rem,
-      hsl(var(--hue) 4% 12% / 80%) 12rem
-    );
-}
-.green {
-  background: linear-gradient(
-      80deg,
-      hsl(170 64% 40% / 0.05),
-      hsl(90 64% 40% / 0.05)
-    ),
-    linear-gradient(
-      130deg,
-      hsl(var(--hs) 8% / 0.8),
-      hsl(var(--hs) 28% / 0.7),
-      hsl(var(--hs) 18% / 0.8)
     );
 }
 .inner {
@@ -526,11 +420,6 @@ blockquote {
 }
 .medium {
   font-weight: 500;
-}
-.jump-to {
-  color: var(--fg);
-  text-decoration: none;
-  border-bottom: 1px dotted hsl(var(--hs) 96% / 0.75);
 }
 details {
   margin: 2rem 0 0.5rem;
@@ -570,50 +459,19 @@ a {
 
 footer {
   position: fixed;
-  /* bottom: -5rem; */
   bottom: 0;
-  /* width: 9.5rem; */
   width: 100%;
-  /* width: 32rem; */
-  /* height: 6rem; */
-  /* height: 3rem; */
   height: 5rem;
-  /* border-radius: 50%; */
-  /* left: calc(50% - 4.75rem); */
-  /* overflow: hidden; */
   left: 0;
   right: 0;
   box-shadow: 0 0 0.25rem 0.25rem hsl(var(--hue) 4% 4% / 20%),
     0 0 0.75rem 0.75rem hsl(var(--hue) 4% 4% / 20%),
     0 0 1.25rem 1.25rem hsl(var(--hue) 4% 10% / 22%);
-  /* 0 0 1rem 1rem hsl(var(--hue) 4% 4% / 20%); */
   background: linear-gradient(hsl(var(--hue) 5% 18%), hsl(var(--hue) 5% 12%));
   display: flex;
   justify-content: center;
   align-items: center;
 }
-/* 
-footer::before {
-  content: "";
-  height: 5rem;
-  width: 5rem;
-  position: absolute;
-  transform: rotate(45);
-}
-.connect {
-position: absolute;
-inset: 0;
-width: 100%;
-height: 5rem;
-display: flex;
-justify-content: center;
-align-items: center;
-} 
-*/
-
-/* align-items: start; */
-/* background: linear-gradient(hsl(var(--hue) 5% 18%), hsl(var(--hue) 5% 12%)); */
-
 .link-btn {
   flex: 0 0 auto;
   margin: 0 auto;
@@ -659,11 +517,4 @@ align-items: center;
   line-height: 1;
   margin: 0 7px 0 0.625rem;
   flex: 0 0 auto;
-}
-
-.highlight {
-  padding: 0.25rem 1rem 5px;
-  border-radius: 0.5rem;
-  background-color: hsl(var(--hs) 25% / 0.75);
-  border: 0.125rem solid hsl(var(--hs) 50% / 0.25);
 }
