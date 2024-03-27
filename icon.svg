@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<svg width="192" height="192"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:svg="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <g>
+    <g>
+      <defs>
+        <linearGradient id="g6" x2="0" y2="1">
+          <stop stop-color="#fff" />
+        </linearGradient>
+        <linearGradient spreadMethod="repeat" id="g5">
+          <stop stop-color="#000" stop-opacity="0" />
+          <stop offset=".5" stop-color="#000" stop-opacity="0" />
+          <stop offset=".5" stop-color="#000" stop-opacity=".1" />
+          <stop offset="1" stop-color="#000" stop-opacity=".2" />
+        </linearGradient>
+        <linearGradient spreadMethod="repeat" id="g4" x1="50%" x2="50%" y2="100%">
+          <stop stop-color="#000" stop-opacity="0" />
+          <stop offset=".5" stop-color="#000" stop-opacity="0" />
+          <stop offset=".5" stop-color="#000" stop-opacity=".1" />
+          <stop offset="1" stop-color="#000" stop-opacity=".2" />
+        </linearGradient>
+        <linearGradient spreadMethod="repeat" id="g3" x2="50%" y2="50%">
+          <stop stop-color="#000" stop-opacity="0" />
+          <stop offset=".5" stop-color="#000" stop-opacity="0" />
+          <stop offset=".5" stop-color="#000" stop-opacity=".1" />
+          <stop offset="1" stop-color="#000" stop-opacity=".2" />
+        </linearGradient>
+        <linearGradient spreadMethod="repeat" id="g2" y1="50%" x2="50%">
+          <stop stop-color="#000" stop-opacity="0" />
+          <stop offset=".5" stop-color="#000" stop-opacity="0" />
+          <stop offset=".5" stop-color="#000" stop-opacity=".1" />
+          <stop offset="1" stop-color="#000" stop-opacity=".2" />
+        </linearGradient>
+        <linearGradient id="g1" x2="0" y2="1">
+          <stop stop-color="#131516" stop-opacity=".88" />
+          <stop offset="1" stop-color="#0a0a0b" stop-opacity=".9" />
+        </linearGradient>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#g6)" />
+      <rect width="100%" height="100%" fill="url(#g5)" />
+      <rect width="100%" height="100%" fill="url(#g4)" />
+      <rect width="100%" height="100%" fill="url(#g3)" />
+      <rect width="100%" height="100%" fill="url(#g2)" />
+      <rect width="100%" height="100%" fill="url(#g1)" />
+    </g>
+    <g>
+      <ellipse cx="96" cy="96" rx="88" ry="88" stroke="#f9fafa" stroke-width="8" fill-opacity="0" opacity="0.02" />
+      <g>
+        <path d="m15,96c0,-17.67 14.33,-32 32,-32c9.23,0 17.54,3.91 23.38,10.15c-2.69,3.53 -4.75,7.57 -6,11.95c-3.44,-6.03 -9.94,-10.1 -17.38,-10.1c-11.05,0 -20,8.95 -20,20s8.95,20 20,20c7.44,0 13.94,-4.07 17.38,-10.1c1.25,4.38 3.31,8.42 6,11.95c-5.84,6.24 -14.15,10.15 -23.38,10.15c-17.67,0 -32,-14.33 -32,-32z" fill="#f9fafa" />
+        <path d="m67,96c0,-17.67 14.33,-32 32,-32c9.23,0 17.54,3.91 23.38,10.15c-2.69,3.53 -4.75,7.57 -6,11.95c-3.44,-6.03 -9.94,-10.1 -17.38,-10.1c-11.05,0 -20,8.95 -20,20s8.95,20 20,20c7.44,0 13.94,-4.07 17.38,-10.1c1.25,4.38 3.31,8.42 6,11.95c-5.84,6.24 -14.15,10.15 -23.38,10.15c-17.67,0 -32,-14.33 -32,-32z" fill="#f9fafa" />
+        <path d="m119,96c0,-17.67 14.33,-32 32,-32c9.23,0 17.54,3.91 23.38,10.15c-2.69,3.53 -4.75,7.57 -6,11.95c-3.44,-6.03 -9.94,-10.1 -17.38,-10.1c-11.05,0 -20,8.95 -20,20s8.95,20 20,20c7.44,0 13.94,-4.07 17.38,-10.1c1.25,4.38 3.31,8.42 6,11.95c-5.84,6.24 -14.15,10.15 -23.38,10.15c-17.67,0 -32,-14.33 -32,-32z" fill="#f9fafa" />
+      </g>
+    </g>
+  </g>
+</svg>
