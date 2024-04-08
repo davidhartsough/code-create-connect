@@ -196,9 +196,17 @@ header p strong span {
   user-select: none;
 }
 
-.cards {
+.cards,
+.card {
   max-width: 46rem;
   margin: auto;
+}
+@media (width >= 93rem) {
+  .cards {
+    max-width: none;
+    display: flex;
+    justify-content: space-evenly;
+  }
 }
 
 .heading {
@@ -284,7 +292,8 @@ h2 {
 }
 .headline .trio {
   font-weight: 200;
-  line-height: 1.75;
+  display: inline-block;
+  margin: 0.125rem 0 0.25rem;
 }
 .headline .trio strong {
   font-weight: 500;
@@ -351,6 +360,19 @@ h4 {
     border-radius: 9.75rem;
     box-shadow: inset 0 0 0 0 #000, 0 0 0 0 #000, 0 0 0 3px var(--fg),
       inset 0 0 0 3px var(--fg);
+  }
+}
+@media (width <= 30rem) {
+  .card {
+    padding: 2.5rem 1.5rem;
+  }
+}
+@media (width <= 25rem) {
+  .card {
+    padding: 2.5rem 1rem;
+  }
+  .trio {
+    font-size: 21px;
   }
 }
 
